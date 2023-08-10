@@ -3,7 +3,7 @@ const colors=require('colors')
 const morgan=require('morgan')
 const dotenv=require('dotenv')
 const connectDB = require('./config/db')
-
+const path = require('path')
 
 //rest object
 const app=express()
